@@ -34,7 +34,6 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    @Cacheable(value = "user", key = "'id_' + #id")
     public User findById(Long id) {
         return userMapper.findById(id);
     }
