@@ -7,7 +7,6 @@ import com.smartdz.dzboss.domain.User;
 import com.smartdz.dzboss.mapper.UserMapper;
 import com.smartdz.dzboss.service.user.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

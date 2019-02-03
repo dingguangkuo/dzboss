@@ -21,7 +21,7 @@ public class UserController {
     @GetMapping(value = {"/", "/index"})
     public String index() {
         return "user/index";
-        // 访问 localhost/index 将直接跳转到 resources/templates/user/index.html 页面
+        // 访问 localhost/user/index 将直接跳转到 resources/templates/user/index.html 页面
     }
 
     @ResponseBody
